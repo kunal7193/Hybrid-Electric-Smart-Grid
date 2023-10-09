@@ -14,11 +14,11 @@ The purpose of this project is to conduct a Load forecast using Statistical and 
 
 
 ## Project Description
-The electric power generation and the demand for electricity are collected from the California Independent System Operator (ISO) through their annual reports. There are a total of 5 annual reports which have data spanning from 2018 to 2022. Each Excel report has data that consists of electricity generation in 5-minute increments daily for a year from solar, wind, other renewables, nuclear, large hydro, natural gas, imports, and demand. The cost data is collected from the International Energy Agency (IEA), Energy Information Administration (EIA), California Energy Commission (CEC), and National Renewable Energy Laboratory (NREL).
+The electric power generation and the demand for electricity are collected from the California Independent System Operator (ISO) through their annual reports. There are a total of 5 annual reports which have data spanning from 2018 to 2022. Each Excel report has data that consists of electricity generation in 5-minute increments daily for a year from solar, wind, other renewables, nuclear, large hydro, natural gas, imports, and demand. The cost data is collected from the International Energy Agency (IEA), Energy Information Administration (EIA), California Energy Commission (CEC), and National Renewable Energy Laboratory (NREL). The generation data is aggregated to transform the 5-minute increments into hourly incremented data points. The outliers are removed using the IQR method and the valid outliers are kept in the dataset. Missing values are also removed from the dataset before conducting the ML model.
 
 ## Files
 
-Jupiter notebook file containing Random Forest model and the Cost minimization calculations
+Jupiter notebook file containing the Random Forest model and the Cost minimization calculations for the transformed dataset.
 
 
 
