@@ -18,7 +18,7 @@ The electric power generation and the demand for electricity are collected from 
 
 ## Files
 
-Jupiter notebook file containing the Random Forest model and the Cost minimization calculations for the transformed dataset.
+Jupyter notebook file containing the Random Forest model and the Cost minimization calculations for the transformed dataset.
 
 
 
